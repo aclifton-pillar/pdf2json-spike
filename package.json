@@ -1,0 +1,14 @@
+{
+  "name": "pdf2json-spike",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Anthony Clifton",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@types/pdfjs-dist": "^0.1.2",
+    "pdfjs-dist": "latest"
+  }
+}
